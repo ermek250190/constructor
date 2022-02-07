@@ -10,10 +10,9 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Class glass = new Class(50   ,"  jash  ",   new int[]{50});
+//        Class glass = new Class(50   ,"  jash  ",   new int[]{50});
 
-        glass.glass2();
-
+//        glass.glass2();
 
 
 //
@@ -63,9 +62,13 @@ public class Main {
 //        }
 //       return counter;
 
+        Popugai pop = new Popugai() ;
+        pop.setName("Kesha");
+        pop.setPoroda("Kesha");
+        pop.setColor(" belyi");
+        pop.setVes("5kg500gr");
 
-
-
+        System.out.println(pop.getName()+pop.getPoroda()+pop.getColor()+pop.getVes());
 
 
     }
