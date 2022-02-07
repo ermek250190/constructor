@@ -37,14 +37,7 @@ public class Main {
 //
 //
 //
-//   public static int method2(int...name){
-//       int counter=0;
-//
-//        for (int i = 0; i < name.length; i++) {
-//          counter+=name[i];
-//
-//        }
-//       return counter;
+
 
         Programmer pro=new Programmer(" ={ java };"," ={ programmer};"," ={ peaksoft };" );
         Dancer dans = new Dancer("={ tancor };","={ medlennyi };","={ medlenaya gruppa };");
