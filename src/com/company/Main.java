@@ -13,23 +13,7 @@ public class Main {
 //        Class glass = new Class(50   ,"  jash  ",   new int[]{50});
 
 //        glass.glass2();
-
-
-//
-//
-//        System.out.println(student.getName()+student.getAge()+student.getRost());
-
-
-//        Televizor tv=new Televizor("...........tv-lg...........", "...55 ...." ,
-//                "...white... ",  50000 );
-//        tv.setName("  tv-LG  \n");
-//        tv.setDiogonal("  55  \n");
-//         tv.setColor("\n  white  \n");
-//         tv.setPrice(  50000  );
-
-
-//        System.out.println(tv.getName()+"\n"+tv.getDiogonal()+" \n "+tv.getPrice()+"\n"+tv.getColor()+" \n");
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 //        Pryamougolnik pr=new Pryamougolnik( "truba","1,45sm","white",  50);
 
 //        System.out.println(pr.getName()+"\n "+ pr.getDlina()+" \n"+ pr.getColor()+" \n"+ pr.getVes());
@@ -62,13 +46,17 @@ public class Main {
 //        }
 //       return counter;
 
-        Popugai pop = new Popugai() ;
-        pop.setName("Kesha");
-        pop.setPoroda("Kesha");
-        pop.setColor(" belyi");
-        pop.setVes("5kg500gr");
+        Programmer pro=new Programmer(" ={ java };"," ={ programmer};"," ={ peaksoft };" );
+        Dancer dans = new Dancer("={ tancor };","={ medlennyi };","={ medlenaya gruppa };");
+        Singer sing=new Singer("={ Atabekov };","={ pevec };","={ Atabekov };");
 
-        System.out.println(pop.getName()+pop.getPoroda()+pop.getColor()+pop.getVes());
+        System.out.println();
+
+
+
+
+
+
 
 
     }
